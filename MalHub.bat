@@ -21,7 +21,7 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-:: Define download links for each virus sample (enclose URLs in quotes to handle special characters)
+:: Define download links for each virus sample
 set "worm=https://www.dropbox.com/scl/fi/mpudfen9rg69v3wtw2nya/Worm.zip?rlkey=hepqjn7wvdjryuclsdir0zf75&st=hqimza94&dl=1"
 set "trojan=https://www.dropbox.com/scl/fi/rq4yx0r2o2s8fxy6ycb4x/Trojan.zip?rlkey=hk8iyls0ks9xpn2lsuwdwmc0w&st=q0smyc0l&dl=1"
 set "ransomware=https://www.dropbox.com/scl/fi/ngeilep7kf7t73qfl5y0l/Ransomware.zip?rlkey=mgorwugbmmicflpwhthkzfqlx&st=ix3gua2e&dl=1"
@@ -103,19 +103,26 @@ if "%choice%"=="1" (
     goto menu
 )
 
-:: Download the file without retrying
+:: Confirm download
+echo Are you sure you want to download %filename%? (Y/N)
+set /p confirm="Enter Y to continue or N to cancel: "
+if /i "%confirm%"=="N" goto menu
+
+:: Download the file
 color 0c
 echo Downloading %filename%...
-echo Downloading %filename%... >> log.txt
+echo %date% %time% - Downloading %filename%... >> log.txt
 curl -L -# -o "%DEST_DIR%\%filename%" "%file_url%"
 if %errorlevel% neq 0 (
+    echo %date% %time% - Download failed for %filename%. >> log.txt
     echo Download failed for %filename%.
-    echo Download failed for %filename%. >> log.txt
-    color 0a
-    goto menu
-) else (
-    echo %filename% downloaded successfully to %DEST_DIR%
-    echo %filename% downloaded successfully to %DEST_DIR% >> log.txt
     color 0a
     goto menu
 )
+
+:: Log successful download
+echo %date% %time% - %filename% downloaded successfully to %DEST_DIR% >> log.txt
+echo %filename% downloaded successfully to %DEST_DIR%
+color 0a
+goto menu
+
