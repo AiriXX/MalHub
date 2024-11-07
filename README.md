@@ -5,12 +5,12 @@ Currently it only has 4 types of malicious software
 - Worms
 - Trojan's
 - Unknown (unidentified)
-  Planning to add:
-  -RAT's
-  -apk's
-  -jokes
-  -modern
-  -phishing
-  -enderware
-  -fakescanners
-  and a lot more
+Planning to add:
+-RAT's
+-apk's
+-jokes
+-modern
+-phishing
+-enderware
+-fakescanners
+and a lot more
