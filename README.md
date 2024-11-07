@@ -1,2 +1,16 @@
 # MalHub
-MalHub is a program writen fully in Batch, which lets you download malicious software from a database. It has a lot of malware types to choose from like Worms, Trojans, Malware and other malicious software
+MalHub is a program writen fully in Batch, which lets you download malicious software from a database. Having a lot of malware types to choose from like Worms, Trojans, Ransomware and other malicious stuff. MADE FOR EDUCATIONAL PURPOSES ONLY AND SHOULD ONLY BE TESTED IN SAFE ENVIRONMENTS LIKE VIRTUAL MACHINES. All malware was taken from repo's available on github and is open-source (Do not share MalHub, only the malicious software can be shared)
+Currently it only has 4 types of malicius software
+- Ransomware
+- Worms
+- Trojan's
+- Unknown (unidentified)
+  Planning to add:
+  -RAT's
+  -apk's
+  -jokes
+  -modern
+  -phishing
+  -enderware
+  -fakescanners
+  and a lot more
