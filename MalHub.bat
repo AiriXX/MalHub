@@ -22,7 +22,9 @@ setlocal enabledelayedexpansion
 set "worm=https://www.dropbox.com/scl/fi/mpudfen9rg69v3wtw2nya/Worm.zip?rlkey=hepqjn7wvdjryuclsdir0zf75&st=hqimza94&dl=1"
 set "trojan=https://www.dropbox.com/scl/fi/rq4yx0r2o2s8fxy6ycb4x/Trojan.zip?rlkey=hk8iyls0ks9xpn2lsuwdwmc0w&st=q0smyc0l&dl=1"
 set "ransomware=https://www.dropbox.com/scl/fi/ngeilep7kf7t73qfl5y0l/Ransomware.zip?rlkey=mgorwugbmmicflpwhthkzfqlx&st=ix3gua2e&dl=1"
-set "unknown=https://www.dropbox.com/scl/fi/ggdv4h3ewybj6esb4ymxz/Unknown.zip?rlkey=gvhmr38p3u5uufs94bxd47q5z&st=cnh0in5t&dl=0=1"
+set "unknown=https://www.dropbox.com/scl/fi/ggdv4h3ewybj6esb4ymxz/Unknown.zip?rlkey=gvhmr38p3u5uufs94bxd47q5z&st=cnh0in5t&dl=1"
+set "stealer=https://www.dropbox.com/scl/fi/8zvlwftmveeg5puqjjj5l/Stealer.zip?rlkey=honi712xovczn9xdxliv60ss1&st=o1lktsvz&dl=1"
+set "spy=https://www.dropbox.com/scl/fi/oqh85gdogmy4bo8ux1jz7/Spy.zip?rlkey=x9xaj7py8m2uehic9dfl02122&st=4bjdq3n2&dl=1"
 
 
 set "DEST_DIR=%cd%\VirusSamples"
@@ -39,6 +41,8 @@ echo 1. Worms.zip (passwords: mysubsarethebest, infected)
 echo 2. Trojan.zip (passwords: mysubsarethebest, infected)
 echo 3. Ransomware.zip (passwords: mysubsarethebest, infected)
 echo 4. Unknown.zip (passwords: mysubsarethebest, infected)
+echo 5. Stealer.zip (passwords: mysubsarethebest, infected)
+echo 6. spy.zip (passwords: mysubsarethebest, infected)
 echo ---------------------------------------------------------------
 
 
@@ -67,6 +71,14 @@ if "%choice%"=="1" (
     echo Downloading Unknown.zip...
     curl -L -o "%DEST_DIR%\Unknown.zip" %Unknown%
     echo Unknown.zip downloaded to %DEST_DIR%
+) else if "%choice%"=="5" (
+    echo Downloading Stealer.zip...
+    curl -L -o "%DEST_DIR%\Stealer.zip" %Unknown%
+    echo Stealer.zip downloaded to %DEST_DIR%
+) else if "%choice%"=="6" (
+    echo Downloading Spy.zip...
+    curl -L -o "%DEST_DIR%\Spy.zip" %Unknown%
+    echo Spy.zip downloaded to %DEST_DIR%
 ) else (
     echo Invalid selection. Exiting...
     exit /b
