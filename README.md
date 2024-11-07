@@ -16,4 +16,7 @@ Planning to add:
 - phishing
 - enderware
 - fakescanners
- and a lot more
+ and a lot MORE
+
+
+BIG UPDATE COMING WHICH ADDS A LOT OF NEW FEATURES AND A NEW MALWARE CATEGORY
