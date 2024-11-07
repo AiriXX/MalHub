@@ -1,0 +1,18 @@
+             Update Log
+Disk Space Check Removed:
+
+Removed the code that checked for available disk space before downloading files to simplify the script and prevent parsing errors.
+
+Confirmation Prompt Before Download:
+Added a prompt for users to confirm (Y to proceed or N to cancel) before each download starts. This ensures that downloads only proceed if the user explicitly confirms.
+Improved Error Handling:
+
+Simplified the download error handling to log only download failures or successes, avoiding retry loops.
+Each successful download logs with timestamp in log.txt, along with any download failures.
+Cleaned Up Menu Flow:
+
+Streamlined the menu to prevent crashes on invalid input.
+Users are notified if they select an invalid option and are redirected to the menu to try again.
+
+Log File Enhancements:
+Expanded the log.txt file with timestamps to better track each download session, including failure and success messages.
