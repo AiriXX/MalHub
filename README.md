@@ -3,10 +3,7 @@ MalHub is a program writen fully in Batch, which lets you download malicious sof
 Currently it only has 9 types of malicious software.
 
 SOME FILES DONT WORK, ITS NOT MY FAULT I WILL TRY TO FIX SOME OF THEM.
-- Ransomware
-- Worms
-- Trojan's
-- Unknown (unidentified)
+
 
 Planning to add:
 - RAT's
