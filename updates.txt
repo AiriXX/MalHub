@@ -2,7 +2,6 @@
 Disk Space Check Removed:
 
 Removed the code that checked for available disk space before downloading files to simplify the script and prevent parsing errors.
-
 Confirmation Prompt Before Download:
 Added a prompt for users to confirm (Y to proceed or N to cancel) before each download starts. This ensures that downloads only proceed if the user explicitly confirms.
 Improved Error Handling:
@@ -16,3 +15,5 @@ Users are notified if they select an invalid option and are redirected to the me
 
 Log File Enhancements:
 Expanded the log.txt file with timestamps to better track each download session, including failure and success messages.
+
+CHANGED FILE FROM BAT TO EXE
