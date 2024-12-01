@@ -15,5 +15,5 @@ Planning to add:
 - fakescanners
  and a lot MORE
 
+Added a GUI using Python, to make it look better, a lot of new updates are gonna be coming to the gui, for now you can still download the .exe file, the file will be removed in the future
 
-FINISHED THE BIG UPDATE, FINALLY FIXED ABSOLUTELY ALL BUGS AND ADDED ALL THE GOOD FEATURES
