@@ -1,19 +1,2 @@
              Update Log
-Disk Space Check Removed:
-
-Removed the code that checked for available disk space before downloading files to simplify the script and prevent parsing errors.
-Confirmation Prompt Before Download:
-Added a prompt for users to confirm (Y to proceed or N to cancel) before each download starts. This ensures that downloads only proceed if the user explicitly confirms.
-Improved Error Handling:
-
-Simplified the download error handling to log only download failures or successes, avoiding retry loops.
-Each successful download logs with timestamp in log.txt, along with any download failures.
-Cleaned Up Menu Flow:
-
-Streamlined the menu to prevent crashes on invalid input.
-Users are notified if they select an invalid option and are redirected to the menu to try again.
-
-Log File Enhancements:
-Expanded the log.txt file with timestamps to better track each download session, including failure and success messages.
-
-CHANGED FILE FROM BAT TO EXE
+Added a GUI using Python, to make it look better, a lot of new updates are gonna be coming to the gui, for now you can still download the .exe file, the file will be removed in the future
