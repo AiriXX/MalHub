@@ -1,15 +1,17 @@
 The Project
 MalHub was made for easily downloading malicious software for testing and understanding how it affects the target system.
+
 ![image](https://github.com/user-attachments/assets/bf1c5e35-6e09-40d3-82a3-e9a51d1ad23f)
 
 
 ## Installation
 Running the program is just as simple as running the .exe, .bat or the python file (the python version is still buggy and may not work as expected).
+
 ![image](https://github.com/user-attachments/assets/57aa432c-805d-460c-b052-86dae6c5dd20)
 
 
 ## Usage
-Examples of how to use the project.
+
 ![image](https://github.com/user-attachments/assets/d91d3750-f930-42a5-98fc-541f9a4e4c45)
 ![image](https://github.com/user-attachments/assets/f45df110-f7ca-4916-9fce-bbdcc98fc312)
 
