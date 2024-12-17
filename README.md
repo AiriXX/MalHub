@@ -30,4 +30,10 @@ Add the LOG file (if there are issues with installation, the LOG file doesnt alw
 The issues (or bugs) are mostly with the downloads and the files containing non working malicious software. Because all the malicious files were taken from another github repo which you can find in the SpecialThanks.md file.
 Im trying my best to fix all of these issues, but im all alone.
 
+## Supported Versions
 
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.1.x   | :white_check_mark: |
+| 1.0.x   | :white_check_mark: |
+| < 1.0   | :x:                |
