@@ -27,7 +27,7 @@ Add the LOG file (if there are issues with installation, the LOG file doesnt alw
 
 ## Issues
 The issues (or bugs) are mostly with the downloads and the files containing non working malicious software. Because all the malicious files were taken from another github repo which you can find in the SpecialThanks.md file.
-Im trying my best to fix all of these issues, but im all alone.
+Im trying my best to fix all of these issues, but finding the exact malware is really hard.
 
 ## Supported Versions
 
