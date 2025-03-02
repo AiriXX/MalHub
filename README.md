@@ -1,4 +1,3 @@
-The Project
 MalHub was made for easily downloading malicious software for testing and understanding how it affects the target system.
 
 ![image](https://github.com/user-attachments/assets/bf1c5e35-6e09-40d3-82a3-e9a51d1ad23f)
