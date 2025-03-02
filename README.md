@@ -36,3 +36,7 @@ Im trying my best to fix all of these issues, but finding the exact malware is r
 | 1.1.x   | :white_check_mark: |
 | 1.0.x   | :white_check_mark: |
 | < 1.0   | :x:                |
+
+
+##PASSWORDS##
+Passwords are 'infected' and 'mysubsarethebest'
