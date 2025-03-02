@@ -38,5 +38,5 @@ Im trying my best to fix all of these issues, but finding the exact malware is r
 | < 1.0   | :x:                |
 
 
-##PASSWORDS##
+## PASSWORDS
 Passwords are 'infected' and 'mysubsarethebest'
