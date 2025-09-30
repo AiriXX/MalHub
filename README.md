@@ -3,7 +3,7 @@ MalHub was made for easily downloading malicious software for testing and unders
 ![image](https://github.com/user-attachments/assets/bf1c5e35-6e09-40d3-82a3-e9a51d1ad23f)
 
 ## Latest news as of 2025
-The project is discontinued since github counts this as malware distribution, and the project keeps on getting flagged, 1.3 may be released as the last ever version.
+The project is finally back, this time with an unstable 1.3 release
 ## Installation
 Running the program is just as simple as running the .exe, .bat or the python file (the python version is still buggy and may not work as expected).
 
