@@ -1,2 +1,8 @@
              Update Log
-Added a GUI using Python, to make it look better, a lot of new updates are gonna be coming to the gui, for now you can still download the .exe file, the file will be removed in the future
+- Now you can choose your custom download location for samples
+- Added enhanced logging: user/session, download directory
+- Added a progress bar with ETA before each download
+- Added a credits button to menu
+- Added a changelog button to menu
+
+A STABLE 1.3 RELEASE SHOULD BE OUT THIS WEEK, CURRENTLY NEEDS SOME MORE TESTING
