@@ -1,8 +1,12 @@
-             Update Log
+             Update Log for 1.4 Theme Update
 - Now you can choose your custom download location for samples
-- Added enhanced logging: user/session, download directory
-- Added a progress bar with ETA before each download
-- Added a credits button to menu
-- Added a changelog button to menu
+- Shows available free disk space in your chosen download folder
+- Malware type descriptions shown before download confirmation
+- Enhanced logging: user/session, download directory, download timing, error codes
+- Progress bar with ETA before each download
+- Menu color themes: Green, Blue, Yellow, Magenta (your choice!)
+- Credits button added to menu
+- Help button added to menu
+- Safety Checklist button added to menu
+- Safety Checklist: Interactive pre-download verification for VM, AV, network, awareness, and backup
 
-A STABLE 1.3 RELEASE SHOULD BE OUT THIS WEEK, CURRENTLY NEEDS SOME MORE TESTING
