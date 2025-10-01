@@ -1,11 +1,11 @@
-MalHub was made for easily downloading malicious software for testing and understanding how it affects the target system.
+MalHub was made for quickly downloading malicious software for testing and understanding how it affects the target system.
 
 ![image](https://github.com/user-attachments/assets/bf1c5e35-6e09-40d3-82a3-e9a51d1ad23f)
 
 ## Latest news as of 2025
 Currently in need of suggestions since 1.4 is done
 ## Installation
-Running the program is just as simple as running the .exe, .bat or the python file (the python version is still buggy and may not work as expected).
+Running the program is just as simple as running the .bat file.
 
 ![image](https://github.com/user-attachments/assets/57aa432c-805d-460c-b052-86dae6c5dd20)
 
@@ -19,11 +19,9 @@ Running the program is just as simple as running the .exe, .bat or the python fi
 
 ## Contributing
 Anyone can contribute to the project by reporting bugs, due to me still not having set up a bug report system you will need to email me about the bug.
-It should contain info like.
-Your Windows version (Windows 7 , 8 or later).
-Describe how the bug happened and in what conditions.
-Attach a photo.
-Add the LOG file (if there are issues with installation, the LOG file doesnt always work on the python version of MalHub).
+It should contain info like :
+your Windows version (Windows 7 , 8 or later).
+Describe how the bug happened and in what conditions, attach a photo, add the LOG file.
 
 
 ## Issues
